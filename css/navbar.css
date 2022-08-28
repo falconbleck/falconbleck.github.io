@@ -8,6 +8,9 @@ header
 li
 {
   color: white; /** text colour **/
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 120px;
 }
 
 /** class reference **/
