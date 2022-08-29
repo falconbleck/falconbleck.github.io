@@ -16,6 +16,7 @@ li
 
 footer
 {
+  position: relative;
   font-size: 25px;
   font-family: 'arial';
   text-align: center;
