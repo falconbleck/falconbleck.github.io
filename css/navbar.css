@@ -18,6 +18,12 @@ li
   font-size: 15px;
 }
 
+body
+{
+  height: 95vh;
+
+}
+
 footer
 {
   position: fixed;
@@ -45,5 +51,5 @@ footer
 
 .main
 {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 100px);
 }
