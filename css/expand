@@ -1,0 +1,66 @@
+* {
+  padding:0;
+  margin: 0;
+  font-family: Verdana;
+}
+
+div {
+  position: relative;
+  vertical-align: top;
+  list-style: none;
+  display: inline-block;
+  width: 25%;
+  background: lightblue;
+  padding: 30px;
+  margin: 20px;
+  transition: 200ms ease-in-out all;
+  line-height: 0;
+  cursor: pointer;
+}
+  
+div:focus {
+  background: lightgreen;
+  line-height: 1.2;
+  outline: none;
+}
+
+div:after {
+ width: 100%;
+ text-align: center;
+ position: relative;
+ display: block;
+ content: "Expand on focus"
+}
+
+div:before {
+  position: absolute;
+  opacity: 1;
+  display: block;
+  right: 20px;
+  content: ">";
+  transform: rotate(90deg);
+  transition: 200ms ease-in-out all;
+}
+
+div:focus:before {
+  opacity: 0;
+}
+
+div:focus span {
+  animation: 2s show;
+  opacity: 1;  
+}
+
+div span {
+  opacity: 0;
+  font-size: 12px;              
+}
+
+div:focus:after {
+  display: none;
+}
+
+@keyframes show {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
