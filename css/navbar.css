@@ -5,7 +5,7 @@ header
   /** position: relative (respects every other element, has margin), absolute (top: 0px, left, right, width: 100%, etc, loses margin, lets you put it everywhere you want), fixed **/
   position: absolute;
   width: 100%;
-  background-image: linear-gradient(120deg, #21618C, #5499C7); /** colours **/
+  background-image: linear-gradient(120deg, #1B0088, #FFFFFF); /** colours **/
   font-size: 15px;
 }
 
@@ -20,11 +20,12 @@ li
 
 footer
 {
-  position: relative;
+  position: absolute;
+  width: 100%;
   font-size: 15px;
   font-family: 'arial';
   text-align: center;
-  background-image: linear-gradient(120deg, #1B0088, #1B0088); /** colours Fs**/
+  background-image: linear-gradient(120deg, #1B0088, #FFFFFF); /** colours Fs**/
 }
 
 /** class reference **/
