@@ -15,7 +15,7 @@ div {
   padding: 30px;
   margin: 20px;
   transition: 200ms ease-in-out all;
-  line-height: 0;
+  line-height: 1;
   cursor: pointer;
 }
   
@@ -30,7 +30,7 @@ div:after {
  text-align: center;
  position: relative;
  display: block;
- content: "Tocar aquí para respuesta"
+ content: "" /** tocar aqui para respuesta **/
 }
 
 div:before {
