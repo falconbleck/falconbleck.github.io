@@ -9,12 +9,12 @@ div {
   vertical-align: top;
   list-style: none;
   display: inline-block;
-  width: 25%;
-  background: lightblue;
+  width: 60%;
+  background: #825de8;
   padding: 30px;
   margin: 20px;
   transition: 200ms ease-in-out all;
-  line-height: 0;
+  line-height: 1;
   cursor: pointer;
 }
   
