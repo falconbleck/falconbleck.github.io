@@ -7,9 +7,10 @@
 div {
   position: relative;
   vertical-align: top;
+  top: 100px;
   list-style: none;
   display: inline-block;
-  width: 60%;
+  width: 90%;
   background: #825de8;
   padding: 30px;
   margin: 20px;
