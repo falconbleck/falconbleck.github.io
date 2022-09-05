@@ -20,11 +20,11 @@ li
 
 footer
 {
-  position: absolute;
+  position: relative;
   font-size: 15px;
   font-family: 'arial';
   text-align: center;
-  background-image: linear-gradient(120deg, #1B0088, #FFFFFF); /** colours **/
+  background-image: linear-gradient(120deg, #1B0088, #1B0088); /** colours Fs**/
 }
 
 /** class reference **/
