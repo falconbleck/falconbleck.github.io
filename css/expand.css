@@ -12,10 +12,10 @@ div {
   display: inline-block;
   width: 90%;
   background: #825de8;
-  padding: 30px;
-  margin: 20px;
+  padding: 10px; /** 30 **/
+  margin: 10px; /** 20 **/
   transition: 200ms ease-in-out all;
-  line-height: 0.5;
+  line-height: 0.8;
   cursor: pointer;
 }
   
