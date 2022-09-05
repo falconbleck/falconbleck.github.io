@@ -10,7 +10,7 @@ div {
   list-style: none;
   display: inline-block;
   width: 25%;
-  background: lightblue;
+  background: blue;
   padding: 30px;
   margin: 20px;
   transition: 200ms ease-in-out all;
@@ -19,7 +19,7 @@ div {
 }
   
 div:focus {
-  background: lightgreen;
+  background: lightblue;
   line-height: 1.2;
   outline: none;
 }
@@ -29,7 +29,7 @@ div:after {
  text-align: center;
  position: relative;
  display: block;
- content: "Expand on focus"
+ content: "Toque aquí para exponer respuesta"
 }
 
 div:before {
