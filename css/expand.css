@@ -10,7 +10,7 @@ div {
   list-style: none;
   display: inline-block;
   width: 25%;
-  background: blue;
+  background: lightblue;
   padding: 30px;
   margin: 20px;
   transition: 200ms ease-in-out all;
@@ -29,7 +29,7 @@ div:after {
  text-align: center;
  position: relative;
  display: block;
- content: "Toque aquí para exponer respuesta"
+ content: "Tocar aquí para respuesta"
 }
 
 div:before {
