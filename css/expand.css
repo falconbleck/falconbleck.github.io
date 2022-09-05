@@ -14,7 +14,7 @@ div {
   padding: 30px;
   margin: 20px;
   transition: 200ms ease-in-out all;
-  line-height: 1;
+  line-height: 0;
   cursor: pointer;
 }
   
